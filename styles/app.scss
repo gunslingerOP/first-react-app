@@ -1,0 +1,53 @@
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    }
+body{
+    background-color: burlywood;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(109, 109, 92);
+    padding: 1%;
+    border-radius: 1%;
+
+    margin-top: 5%;
+    input{
+        flex: 2;
+        input:focus{
+            outline: black;
+        }
+    }
+    button{
+        flex: 1;
+        }
+        button:hover{
+        background-color: black;
+        color: blanchedalmond;
+    }
+}
+.list-item{
+    background-color: rgb(185, 185, 154);
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 1%;
+    &:hover{
+        background-color: rgb(235, 204, 158);
+    }
+    display: flex;
+    p{
+        flex: 2;
+       
+    }
+    button{
+        flex: 1;
+        &:hover{
+            background-color: black;
+            color: blanchedalmond;
+        }
+    }
+}
